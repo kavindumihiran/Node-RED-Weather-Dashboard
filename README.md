@@ -105,7 +105,7 @@ http://127.0.0.1:1880/
 ---
 
 ## **Screenshots**
-![Dashboard Screenshot](images/dashboard.png)
+![Dashboard Screenshot](Images/dashboard.png)
 
 ---
 
