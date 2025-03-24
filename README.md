@@ -105,7 +105,7 @@ http://127.0.0.1:1880/
 ---
 
 ## **Screenshots**
-(*Attach images of your dashboard and Node-RED flows here.*)
+![Dashboard Screenshot](images/dashboard.png)
 
 ---
 
