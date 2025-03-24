@@ -1,0 +1,2575 @@
+[
+    {
+        "id": "d4abd89aea75f9ea",
+        "type": "tab",
+        "label": "Main_flow",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c1efb247de222fdb",
+        "type": "tab",
+        "label": "Show_hide_groups ",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2cc8ba30a2c6769b",
+        "type": "tab",
+        "label": "update_interval",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b965f67ac47462c0",
+        "type": "tab",
+        "label": "Temperature_Humidity, pressure and wind",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a4355432e8412b29",
+        "type": "tab",
+        "label": "Charts",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "34709373db2a18d7",
+        "type": "tab",
+        "label": "Warning limits",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "917cbb708bfa8757",
+        "type": "ui_tab",
+        "name": "Weather",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0f36df619c2b0224",
+        "type": "ui_group",
+        "name": "Past_Data",
+        "tab": "3732cd5306dd4c63",
+        "order": 1,
+        "disp": true,
+        "width": "13",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7ede138cf93ff461",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "20ad187a482d5904",
+        "type": "ui_group",
+        "name": "Input Method ",
+        "tab": "3d814533ded5636f",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "85ab53c6a345ba11",
+        "type": "ui_group",
+        "name": "Latitude/Longitude",
+        "tab": "917cbb708bfa8757",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3d814533ded5636f",
+        "type": "ui_tab",
+        "name": "Settings",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "227a2732aab00f37",
+        "type": "ui_group",
+        "name": "Warning lights",
+        "tab": "917cbb708bfa8757",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d1710c0abafa05ef",
+        "type": "ui_group",
+        "name": "Humidity",
+        "tab": "917cbb708bfa8757",
+        "order": 11,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4aa8c90ef9955fd1",
+        "type": "ui_group",
+        "name": "Description",
+        "tab": "917cbb708bfa8757",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7ade60d94c6cbc09",
+        "type": "ui_group",
+        "name": "Temperature ",
+        "tab": "917cbb708bfa8757",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cc0e53b594c0a3b4",
+        "type": "ui_group",
+        "name": "Wind",
+        "tab": "917cbb708bfa8757",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "44b840f1c9b51f81",
+        "type": "ui_group",
+        "name": "Pressure",
+        "tab": "917cbb708bfa8757",
+        "order": 12,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f62a4a778b18a888",
+        "type": "ui_group",
+        "name": "Input_City/Country",
+        "tab": "917cbb708bfa8757",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3732cd5306dd4c63",
+        "type": "ui_tab",
+        "name": "Chart",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b87c4b412bf33a73",
+        "type": "ui_group",
+        "name": "Charts ",
+        "tab": "3d814533ded5636f",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "04a48e53220a2689",
+        "type": "ui_group",
+        "name": "slider_temp",
+        "tab": "917cbb708bfa8757",
+        "order": 7,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "048b69eba0e00890",
+        "type": "ui_group",
+        "name": "slider_hum",
+        "tab": "917cbb708bfa8757",
+        "order": 8,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "de823d7279f8bb8c",
+        "type": "ui_group",
+        "name": "slider_pres",
+        "tab": "917cbb708bfa8757",
+        "order": 9,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3c0a7802a634881f",
+        "type": "ui_group",
+        "name": "slider_wind",
+        "tab": "917cbb708bfa8757",
+        "order": 10,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "709c1e6529b1bb09",
+        "type": "openweathermap",
+        "z": "d4abd89aea75f9ea",
+        "name": "Weather",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "",
+        "country": "",
+        "language": "en",
+        "x": 960,
+        "y": 400,
+        "wires": [
+            [
+                "5221fdb6f5b812ac",
+                "a048cbb2ffac8d94",
+                "c7e551e20e7c4c47",
+                "5221782e5f09ca47"
+            ]
+        ]
+    },
+    {
+        "id": "5221fdb6f5b812ac",
+        "type": "debug",
+        "z": "d4abd89aea75f9ea",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "ae85d64e8e7469b3",
+        "type": "function",
+        "z": "d4abd89aea75f9ea",
+        "name": "function 3",
+        "func": "return{\n    location: {\n        city: flow.get(\"city\"),\n        country: flow.get(\"country\")\n    }\n};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 320,
+        "wires": [
+            [
+                "709c1e6529b1bb09"
+            ]
+        ]
+    },
+    {
+        "id": "5cf466122476c3c0",
+        "type": "ui_button",
+        "z": "d4abd89aea75f9ea",
+        "name": "submit_city",
+        "group": "f62a4a778b18a888",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Submit",
+        "tooltip": "Press to Submit",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "start",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 320,
+        "wires": [
+            [
+                "5d47a88da93ea86b",
+                "f7f709a322851237"
+            ]
+        ]
+    },
+    {
+        "id": "4938e25141430119",
+        "type": "ui_text_input",
+        "z": "d4abd89aea75f9ea",
+        "name": "",
+        "label": "City",
+        "tooltip": "Enter the City",
+        "group": "f62a4a778b18a888",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 230,
+        "y": 80,
+        "wires": [
+            [
+                "2e3b39870173f529"
+            ]
+        ]
+    },
+    {
+        "id": "0432370906a53e61",
+        "type": "ui_text_input",
+        "z": "d4abd89aea75f9ea",
+        "name": "",
+        "label": "Country",
+        "tooltip": "Enter the Country",
+        "group": "f62a4a778b18a888",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 240,
+        "y": 140,
+        "wires": [
+            [
+                "35cb7c7d3bafe10d"
+            ]
+        ]
+    },
+    {
+        "id": "2e3b39870173f529",
+        "type": "change",
+        "z": "d4abd89aea75f9ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "city",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "35cb7c7d3bafe10d",
+        "type": "change",
+        "z": "d4abd89aea75f9ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "country",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8ea14bdfd0c59933",
+        "type": "ui_text_input",
+        "z": "d4abd89aea75f9ea",
+        "name": "",
+        "label": "Latitude",
+        "tooltip": "Enter latitude",
+        "group": "85ab53c6a345ba11",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 760,
+        "y": 80,
+        "wires": [
+            [
+                "800967dbf26a262e"
+            ]
+        ]
+    },
+    {
+        "id": "278f858ac496c76c",
+        "type": "ui_text_input",
+        "z": "d4abd89aea75f9ea",
+        "name": "",
+        "label": "Longitude",
+        "tooltip": "Enter longitude",
+        "group": "85ab53c6a345ba11",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 760,
+        "y": 140,
+        "wires": [
+            [
+                "def46047601a744c"
+            ]
+        ]
+    },
+    {
+        "id": "800967dbf26a262e",
+        "type": "change",
+        "z": "d4abd89aea75f9ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "latitude",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 960,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "def46047601a744c",
+        "type": "change",
+        "z": "d4abd89aea75f9ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "longitude",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c33ebe0770b20bb4",
+        "type": "function",
+        "z": "d4abd89aea75f9ea",
+        "name": "function 4",
+        "func": "return{\n    location: {\n        lat: flow.get(\"latitude\"),\n        lon: flow.get(\"longitude\")\n    }\n};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 480,
+        "wires": [
+            [
+                "709c1e6529b1bb09"
+            ]
+        ]
+    },
+    {
+        "id": "cdcd52ab17ed98a0",
+        "type": "ui_button",
+        "z": "d4abd89aea75f9ea",
+        "name": "submit_long",
+        "group": "85ab53c6a345ba11",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Submit",
+        "tooltip": "Press to Submit",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "start",
+        "payloadType": "str",
+        "topic": "cityCon",
+        "topicType": "str",
+        "x": 130,
+        "y": 480,
+        "wires": [
+            [
+                "87137def918bcfa6"
+            ]
+        ]
+    },
+    {
+        "id": "4b4e8d0e86ef31d7",
+        "type": "trigger",
+        "z": "d4abd89aea75f9ea",
+        "name": "",
+        "op1": "",
+        "op2": "",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "-3",
+        "extend": true,
+        "overrideDelay": true,
+        "units": "s",
+        "reset": "start_citycon",
+        "bytopic": "all",
+        "topic": "isCity",
+        "outputs": 1,
+        "x": 620,
+        "y": 480,
+        "wires": [
+            [
+                "c33ebe0770b20bb4"
+            ]
+        ]
+    },
+    {
+        "id": "bab0f4e685d45a32",
+        "type": "debug",
+        "z": "d4abd89aea75f9ea",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "1cec39f9ce0d6de0",
+        "type": "trigger",
+        "z": "d4abd89aea75f9ea",
+        "name": "",
+        "op1": "",
+        "op2": "",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "-3",
+        "extend": true,
+        "overrideDelay": true,
+        "units": "s",
+        "reset": "start_latlong",
+        "bytopic": "all",
+        "topic": "isLatlong",
+        "outputs": 1,
+        "x": 620,
+        "y": 320,
+        "wires": [
+            [
+                "ae85d64e8e7469b3",
+                "bab0f4e685d45a32"
+            ]
+        ]
+    },
+    {
+        "id": "5d47a88da93ea86b",
+        "type": "function",
+        "z": "d4abd89aea75f9ea",
+        "name": "function 8",
+        "func": "let val = global.get(\"delay_trig\");\n\nmsg = {\n    payload: \"start_citycon\",\n    delay: val * 1000,\n    isCity: true\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 320,
+        "wires": [
+            [
+                "1cec39f9ce0d6de0",
+                "4b4e8d0e86ef31d7"
+            ]
+        ]
+    },
+    {
+        "id": "87137def918bcfa6",
+        "type": "function",
+        "z": "d4abd89aea75f9ea",
+        "name": "function 9",
+        "func": "let val = global.get(\"delay_trig\");\n\nmsg = {\n    payload: \"start_latlong\",\n    delay: val*1000,\n    isCity: true\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 480,
+        "wires": [
+            [
+                "4b4e8d0e86ef31d7",
+                "e12c6c61b4248950",
+                "1cec39f9ce0d6de0"
+            ]
+        ]
+    },
+    {
+        "id": "e12c6c61b4248950",
+        "type": "debug",
+        "z": "d4abd89aea75f9ea",
+        "name": "debug 8",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "a048cbb2ffac8d94",
+        "type": "ui_text",
+        "z": "d4abd89aea75f9ea",
+        "group": "4aa8c90ef9955fd1",
+        "order": 1,
+        "width": 6,
+        "height": 2,
+        "name": "Description",
+        "label": "{{msg.payload.location}}.",
+        "format": "{{msg.payload.description}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Times New Roman,Times,serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1270,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "340c8b523cffa4e4",
+        "type": "ui_text",
+        "z": "d4abd89aea75f9ea",
+        "group": "4aa8c90ef9955fd1",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "Sunrise",
+        "label": "Sunrise",
+        "format": "{{msg.payload.sunrise_time}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "Times New Roman,Times,serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1420,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "1959d5e3004ffd73",
+        "type": "ui_text",
+        "z": "d4abd89aea75f9ea",
+        "group": "4aa8c90ef9955fd1",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "name": "Sunset",
+        "label": "Sunset",
+        "format": "{{msg.payload.sunset_time}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "Times New Roman,Times,serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1420,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "c7e551e20e7c4c47",
+        "type": "change",
+        "z": "d4abd89aea75f9ea",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "weather",
+                "pt": "global",
+                "to": "msg.payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1270,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c138b09bbcd17d94",
+        "type": "ui_audio",
+        "z": "d4abd89aea75f9ea",
+        "name": "Speaker",
+        "group": "4aa8c90ef9955fd1",
+        "voice": "Microsoft Mark - English (United States)",
+        "always": true,
+        "x": 720,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "7615ed2e8af6b308",
+        "type": "ui_button",
+        "z": "d4abd89aea75f9ea",
+        "name": "",
+        "group": "4aa8c90ef9955fd1",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Audio",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 390,
+        "y": 680,
+        "wires": [
+            [
+                "3866a948024824c4"
+            ]
+        ]
+    },
+    {
+        "id": "3866a948024824c4",
+        "type": "function",
+        "z": "d4abd89aea75f9ea",
+        "name": "function 10",
+        "func": "let read = global.get(\"weather\")\n\nmsg = {\n    payload: read.description\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 680,
+        "wires": [
+            [
+                "c138b09bbcd17d94",
+                "7d1f7a3f95c04f54"
+            ]
+        ]
+    },
+    {
+        "id": "7d1f7a3f95c04f54",
+        "type": "debug",
+        "z": "d4abd89aea75f9ea",
+        "name": "debug 9",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "f7f709a322851237",
+        "type": "link out",
+        "z": "d4abd89aea75f9ea",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "c130fc4e92fe367a",
+            "d5a7879aaacd8008",
+            "69f3e266e2af5998"
+        ],
+        "x": 255,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "5221782e5f09ca47",
+        "type": "function",
+        "z": "d4abd89aea75f9ea",
+        "name": "function 25",
+        "func": "let sun_time = msg.payload.sunrise;\nlet sun_time_set = msg.payload.sunset\n\nlet rise_date = new Date(sun_time * 1000);\nlet set_date = new Date(sun_time_set * 1000);\n\nlet sunrise = rise_date.toLocaleTimeString(\"en-GB\", { hour: \"2-digit\", minute: \"2-digit\", second: \"2-digit\", hour12: false });\nlet sunset = set_date.toLocaleTimeString(\"en-GB\", { hour: \"2-digit\", minute: \"2-digit\", second: \"2-digit\", hour12: false });\n\nmsg.payload.sunrise_time = sunrise\nmsg.payload.sunset_time = sunset\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 420,
+        "wires": [
+            [
+                "340c8b523cffa4e4",
+                "1959d5e3004ffd73"
+            ]
+        ]
+    },
+    {
+        "id": "e79780c05f9d592f",
+        "type": "ui_dropdown",
+        "z": "c1efb247de222fdb",
+        "name": "",
+        "label": "",
+        "tooltip": "Select the input Method ",
+        "place": "Select option",
+        "group": "20ad187a482d5904",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "City/Country",
+                "value": true,
+                "type": "bool"
+            },
+            {
+                "label": "Latitude/Longutude",
+                "value": false,
+                "type": "bool"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 340,
+        "y": 160,
+        "wires": [
+            [
+                "f0eb3fbc729dc5f1"
+            ]
+        ]
+    },
+    {
+        "id": "f0eb3fbc729dc5f1",
+        "type": "switch",
+        "z": "c1efb247de222fdb",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 510,
+        "y": 160,
+        "wires": [
+            [
+                "a8ac6d8c9ef6467f"
+            ],
+            [
+                "72081fec6826668f"
+            ]
+        ]
+    },
+    {
+        "id": "a8ac6d8c9ef6467f",
+        "type": "change",
+        "z": "c1efb247de222fdb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"hide\":[\"Weather_Latitude/Longitude\"],\"show\":[\"Weather_Input_City/Country\"],\"focus\":true}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 120,
+        "wires": [
+            [
+                "ce9a2f071b0204cb",
+                "114493690ed746c0"
+            ]
+        ]
+    },
+    {
+        "id": "72081fec6826668f",
+        "type": "change",
+        "z": "c1efb247de222fdb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"Weather_Latitude/Longitude\"],\"hide\":[\"Weather_Input_City/Country\"],\"focus\":true}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 180,
+        "wires": [
+            [
+                "114493690ed746c0"
+            ]
+        ]
+    },
+    {
+        "id": "ce9a2f071b0204cb",
+        "type": "debug",
+        "z": "c1efb247de222fdb",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "67f5a29418a8250f",
+        "type": "ui_text",
+        "z": "c1efb247de222fdb",
+        "group": "20ad187a482d5904",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Select whether you enter as City/Country or Latitudes/Longitudes",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 340,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "eb135abda5e76d93",
+        "type": "ui_switch",
+        "z": "c1efb247de222fdb",
+        "name": "",
+        "label": "On / Off ",
+        "tooltip": "Display or Hide charts ",
+        "group": "b87c4b412bf33a73",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 340,
+        "y": 340,
+        "wires": [
+            [
+                "e443dc921607df50"
+            ]
+        ]
+    },
+    {
+        "id": "e443dc921607df50",
+        "type": "switch",
+        "z": "c1efb247de222fdb",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 510,
+        "y": 340,
+        "wires": [
+            [
+                "d58adc9bdb503465"
+            ],
+            [
+                "7cb43cfeebafaf0b"
+            ]
+        ]
+    },
+    {
+        "id": "d58adc9bdb503465",
+        "type": "change",
+        "z": "c1efb247de222fdb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"show\":[\"chart\"],\"focus\":true}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 300,
+        "wires": [
+            [
+                "114493690ed746c0"
+            ]
+        ]
+    },
+    {
+        "id": "7cb43cfeebafaf0b",
+        "type": "change",
+        "z": "c1efb247de222fdb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"hide\":[\"chart\"],\"focus\":true}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 380,
+        "wires": [
+            [
+                "114493690ed746c0"
+            ]
+        ]
+    },
+    {
+        "id": "114493690ed746c0",
+        "type": "ui_ui_control",
+        "z": "c1efb247de222fdb",
+        "name": "",
+        "events": "all",
+        "x": 1000,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "11cbd88fd1955dbf",
+        "type": "ui_dropdown",
+        "z": "c1efb247de222fdb",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "227a2732aab00f37",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Temperature ",
+                "value": 1,
+                "type": "num"
+            },
+            {
+                "label": "Humidity",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "Pressure",
+                "value": "3",
+                "type": "str"
+            },
+            {
+                "label": "Wind Speed",
+                "value": "4",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 340,
+        "y": 540,
+        "wires": [
+            [
+                "29ac7598cb371020"
+            ]
+        ]
+    },
+    {
+        "id": "29ac7598cb371020",
+        "type": "switch",
+        "z": "c1efb247de222fdb",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "3",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "4",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 510,
+        "y": 540,
+        "wires": [
+            [
+                "033c0fdd868410a2"
+            ],
+            [
+                "66f78163714a7e7c"
+            ],
+            [
+                "12e23c9ed5759e0e"
+            ],
+            [
+                "9aeba0c0fdc035db"
+            ]
+        ]
+    },
+    {
+        "id": "033c0fdd868410a2",
+        "type": "change",
+        "z": "c1efb247de222fdb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"Weather_slider_temp\"],\"hide\":[\"Weather_slider_hum\",\"Weather_slider_pres\",\"Weather_slider_wind\"],\"focus\":true}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 480,
+        "wires": [
+            [
+                "114493690ed746c0"
+            ]
+        ]
+    },
+    {
+        "id": "66f78163714a7e7c",
+        "type": "change",
+        "z": "c1efb247de222fdb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"Weather_slider_hum\"],\"hide\":[\"Weather_slider_temp\",\"Weather_slider_pres\",\"Weather_slider_wind\"],\"focus\":true}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 520,
+        "wires": [
+            [
+                "114493690ed746c0"
+            ]
+        ]
+    },
+    {
+        "id": "12e23c9ed5759e0e",
+        "type": "change",
+        "z": "c1efb247de222fdb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"Weather_slider_pres\"],\"hide\":[\"Weather_slider_hum\",\"Weather_slider_temp\",\"Weather_slider_wind\"],\"focus\":true}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 560,
+        "wires": [
+            [
+                "114493690ed746c0"
+            ]
+        ]
+    },
+    {
+        "id": "9aeba0c0fdc035db",
+        "type": "change",
+        "z": "c1efb247de222fdb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"Weather_slider_wind\"],\"hide\":[\"Weather_slider_hum\",\"Weather_slider_pres\",\"Weather_slider_temp\"],\"focus\":true}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 600,
+        "wires": [
+            [
+                "114493690ed746c0"
+            ]
+        ]
+    },
+    {
+        "id": "17c11cc9677f78ef",
+        "type": "ui_numeric",
+        "z": "2cc8ba30a2c6769b",
+        "name": "",
+        "label": "Update Interval (Seconds)",
+        "tooltip": "enter a number",
+        "group": "20ad187a482d5904",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "wrap": false,
+        "passthru": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "format": "{{msg.Payload}}",
+        "min": "10",
+        "max": "1800",
+        "step": "10",
+        "className": "",
+        "x": 610,
+        "y": 180,
+        "wires": [
+            [
+                "2f87eb5f2a00840a"
+            ]
+        ]
+    },
+    {
+        "id": "2f87eb5f2a00840a",
+        "type": "change",
+        "z": "2cc8ba30a2c6769b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "delay_trig",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 180,
+        "wires": [
+            [
+                "8e2e0a66c6d0f72e"
+            ]
+        ]
+    },
+    {
+        "id": "3977d9ef02585107",
+        "type": "inject",
+        "z": "2cc8ba30a2c6769b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 210,
+        "y": 180,
+        "wires": [
+            [
+                "570bd3d7dd38041f"
+            ]
+        ]
+    },
+    {
+        "id": "570bd3d7dd38041f",
+        "type": "function",
+        "z": "2cc8ba30a2c6769b",
+        "name": "function 7",
+        "func": "flow.set(\"delay_trig\", 30)\nmsg.payload = Number(30);  // Send 30 at startup\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 180,
+        "wires": [
+            [
+                "17c11cc9677f78ef"
+            ]
+        ]
+    },
+    {
+        "id": "8e2e0a66c6d0f72e",
+        "type": "debug",
+        "z": "2cc8ba30a2c6769b",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "a2337f8e4329cdc8",
+        "type": "ui_gauge",
+        "z": "b965f67ac47462c0",
+        "name": "Wind_speed",
+        "group": "cc0e53b594c0a3b4",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Speed ",
+        "label": "m/s",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "40",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "10",
+        "seg2": "20",
+        "diff": false,
+        "className": "",
+        "x": 1050,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "41576c305e7634e8",
+        "type": "ui_gauge",
+        "z": "b965f67ac47462c0",
+        "name": "Temperature",
+        "group": "7ade60d94c6cbc09",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "Temperature",
+        "label": "C",
+        "format": "{{value}}",
+        "min": "-20",
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1050,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "4b6e68cbff7bde75",
+        "type": "ui_gauge",
+        "z": "b965f67ac47462c0",
+        "name": "Wind_direction",
+        "group": "cc0e53b594c0a3b4",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "compass",
+        "title": "Direction",
+        "label": "Degrees",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "360",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1060,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "03d46c9619090f88",
+        "type": "ui_gauge",
+        "z": "b965f67ac47462c0",
+        "name": "Humidity",
+        "group": "d1710c0abafa05ef",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Humidity",
+        "label": "Percentage",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ff0000",
+            "#2ccc00",
+            "#e6ea1a"
+        ],
+        "seg1": "30",
+        "seg2": "60",
+        "diff": false,
+        "className": "",
+        "x": 1040,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "87138662bf272f33",
+        "type": "function",
+        "z": "b965f67ac47462c0",
+        "name": "function 11",
+        "func": "let readings = global.get(\"weather\");\nmsg.payload = readings.tempc;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 420,
+        "wires": [
+            [
+                "41576c305e7634e8"
+            ]
+        ]
+    },
+    {
+        "id": "b509162216ad6071",
+        "type": "function",
+        "z": "b965f67ac47462c0",
+        "name": "function 12",
+        "func": "let readings = global.get(\"weather\");\nmsg.payload = readings.humidity;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 300,
+        "wires": [
+            [
+                "03d46c9619090f88"
+            ]
+        ]
+    },
+    {
+        "id": "09d5f02463a34bf3",
+        "type": "function",
+        "z": "b965f67ac47462c0",
+        "name": "function 13",
+        "func": "let readings = global.get(\"weather\");\nmsg.payload = readings.winddirection;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 200,
+        "wires": [
+            [
+                "4b6e68cbff7bde75"
+            ]
+        ]
+    },
+    {
+        "id": "e5715aac944f863a",
+        "type": "function",
+        "z": "b965f67ac47462c0",
+        "name": "function 14",
+        "func": "let readings = global.get(\"weather\");\nmsg.payload = readings.windspeed;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 120,
+        "wires": [
+            [
+                "a2337f8e4329cdc8"
+            ]
+        ]
+    },
+    {
+        "id": "4419e0ddf9653ddb",
+        "type": "ui_gauge",
+        "z": "b965f67ac47462c0",
+        "name": "Pressure",
+        "group": "44b840f1c9b51f81",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "Pressure",
+        "label": "atm",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "4",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1040,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "cce537fd6192541c",
+        "type": "function",
+        "z": "b965f67ac47462c0",
+        "name": "function 15",
+        "func": "let readings = global.get(\"weather\");\n\nlet pressure_hPa = readings.pressure;\nlet pressure_atm = pressure_hPa / 1013.25;\n\nmsg.payload = pressure_atm;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 500,
+        "wires": [
+            [
+                "4419e0ddf9653ddb"
+            ]
+        ]
+    },
+    {
+        "id": "af79a5718024e0b9",
+        "type": "function",
+        "z": "b965f67ac47462c0",
+        "name": "function 17",
+        "func": "let val = global.get(\"delay_trig\");\n\nmsg = {\n    payload: \"start\",\n    delay: val * 1000,\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 300,
+        "wires": [
+            [
+                "da4594827389707c"
+            ]
+        ]
+    },
+    {
+        "id": "da4594827389707c",
+        "type": "trigger",
+        "z": "b965f67ac47462c0",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "-3",
+        "extend": false,
+        "overrideDelay": true,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 580,
+        "y": 300,
+        "wires": [
+            [
+                "e5715aac944f863a",
+                "09d5f02463a34bf3",
+                "b509162216ad6071",
+                "87138662bf272f33",
+                "cce537fd6192541c"
+            ]
+        ]
+    },
+    {
+        "id": "d5a7879aaacd8008",
+        "type": "link in",
+        "z": "b965f67ac47462c0",
+        "name": "link in 1",
+        "links": [
+            "f7f709a322851237"
+        ],
+        "x": 255,
+        "y": 300,
+        "wires": [
+            [
+                "af79a5718024e0b9"
+            ]
+        ]
+    },
+    {
+        "id": "d8fe6cbcc07bca84",
+        "type": "ui_chart",
+        "z": "a4355432e8412b29",
+        "name": "",
+        "group": "0f36df619c2b0224",
+        "order": 1,
+        "width": 13,
+        "height": 7,
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-20",
+        "ymax": "40",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1050,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8a9714915a1ed24b",
+        "type": "function",
+        "z": "a4355432e8412b29",
+        "name": "function 16",
+        "func": "let readings = global.get(\"weather\");\nmsg.payload = readings.tempc;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 100,
+        "wires": [
+            [
+                "d8fe6cbcc07bca84"
+            ]
+        ]
+    },
+    {
+        "id": "c130fc4e92fe367a",
+        "type": "link in",
+        "z": "a4355432e8412b29",
+        "name": "link in 2",
+        "links": [
+            "f7f709a322851237"
+        ],
+        "x": 305,
+        "y": 100,
+        "wires": [
+            [
+                "4f1e3f53041ce5db"
+            ]
+        ]
+    },
+    {
+        "id": "4f1e3f53041ce5db",
+        "type": "function",
+        "z": "a4355432e8412b29",
+        "name": "function 18",
+        "func": "let val = global.get(\"delay_trig\");\n\nmsg = {\n    payload: \"start\",\n    delay: val * 1000,\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 100,
+        "wires": [
+            [
+                "c30c0d8a6d9f7448"
+            ]
+        ]
+    },
+    {
+        "id": "c30c0d8a6d9f7448",
+        "type": "trigger",
+        "z": "a4355432e8412b29",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "-3",
+        "extend": false,
+        "overrideDelay": true,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 640,
+        "y": 100,
+        "wires": [
+            [
+                "8a9714915a1ed24b",
+                "fa81a92950a7a1d3"
+            ]
+        ]
+    },
+    {
+        "id": "153df06f607e327a",
+        "type": "ui_chart",
+        "z": "a4355432e8412b29",
+        "name": "",
+        "group": "0f36df619c2b0224",
+        "order": 1,
+        "width": "13",
+        "height": "7",
+        "label": "Humidity",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1040,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fa81a92950a7a1d3",
+        "type": "function",
+        "z": "a4355432e8412b29",
+        "name": "function 19",
+        "func": "let readings = global.get(\"weather\");\nmsg.payload = readings.humidity;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 180,
+        "wires": [
+            [
+                "153df06f607e327a"
+            ]
+        ]
+    },
+    {
+        "id": "12c95b6c05bdde17",
+        "type": "ui_text",
+        "z": "34709373db2a18d7",
+        "group": "227a2732aab00f37",
+        "order": 1,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "Warning",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 140,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "a3247b18b331740c",
+        "type": "ui_slider",
+        "z": "34709373db2a18d7",
+        "name": "slider_temp",
+        "label": "slider",
+        "tooltip": "",
+        "group": "04a48e53220a2689",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "20",
+        "max": "50",
+        "step": "5",
+        "className": "",
+        "x": 410,
+        "y": 80,
+        "wires": [
+            [
+                "95f15163d6711cec"
+            ]
+        ]
+    },
+    {
+        "id": "8f2713071f9382ee",
+        "type": "ui_slider",
+        "z": "34709373db2a18d7",
+        "name": "slider_hum",
+        "label": "slider",
+        "tooltip": "",
+        "group": "048b69eba0e00890",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": "5",
+        "className": "",
+        "x": 410,
+        "y": 140,
+        "wires": [
+            [
+                "acd9172f1e391491"
+            ]
+        ]
+    },
+    {
+        "id": "3f8305d349805269",
+        "type": "ui_slider",
+        "z": "34709373db2a18d7",
+        "name": "slider_pres",
+        "label": "slider",
+        "tooltip": "",
+        "group": "de823d7279f8bb8c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 870,
+        "y": 80,
+        "wires": [
+            [
+                "08f4cdf67acedb2b"
+            ]
+        ]
+    },
+    {
+        "id": "60c662c60fdd4bfc",
+        "type": "ui_slider",
+        "z": "34709373db2a18d7",
+        "name": "slider_wind",
+        "label": "slider",
+        "tooltip": "",
+        "group": "3c0a7802a634881f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "40",
+        "step": 1,
+        "className": "",
+        "x": 870,
+        "y": 140,
+        "wires": [
+            [
+                "607ffb1b6bcfefb4"
+            ]
+        ]
+    },
+    {
+        "id": "95f15163d6711cec",
+        "type": "change",
+        "z": "34709373db2a18d7",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "warning_temp",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "acd9172f1e391491",
+        "type": "change",
+        "z": "34709373db2a18d7",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "warning_hum",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "08f4cdf67acedb2b",
+        "type": "change",
+        "z": "34709373db2a18d7",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "warning_pres",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1120,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "607ffb1b6bcfefb4",
+        "type": "change",
+        "z": "34709373db2a18d7",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "warning_wind",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1120,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "30fe7716374b8dcd",
+        "type": "ui_toast",
+        "z": "34709373db2a18d7",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "WARNING",
+        "name": "",
+        "x": 970,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3c29a48ffeed3562",
+        "type": "function",
+        "z": "34709373db2a18d7",
+        "name": "function 20",
+        "func": "let val = global.get(\"delay_trig\");\n\nmsg = {\n    payload: \"start\",\n    delay: val * 1000,\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 360,
+        "wires": [
+            [
+                "9cbc1d62eb651a2c"
+            ]
+        ]
+    },
+    {
+        "id": "9cbc1d62eb651a2c",
+        "type": "trigger",
+        "z": "34709373db2a18d7",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "-3",
+        "extend": false,
+        "overrideDelay": true,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 540,
+        "y": 360,
+        "wires": [
+            [
+                "c6887aea736c795a",
+                "3df50b314ed990e7",
+                "a2c0c0b7f64ece6f",
+                "05a748ae04ca7efa"
+            ]
+        ]
+    },
+    {
+        "id": "69f3e266e2af5998",
+        "type": "link in",
+        "z": "34709373db2a18d7",
+        "name": "link in 3",
+        "links": [
+            "f7f709a322851237"
+        ],
+        "x": 225,
+        "y": 360,
+        "wires": [
+            [
+                "3c29a48ffeed3562"
+            ]
+        ]
+    },
+    {
+        "id": "c6887aea736c795a",
+        "type": "function",
+        "z": "34709373db2a18d7",
+        "name": "function 21",
+        "func": "let readings = global.get(\"weather\");\nlet limit_temp = flow.get(\"warning_temp\")\n\nlet temp = readings.tempc;\nlet diff = temp - limit_temp;\n\nif (temp >= limit_temp){\n    msg ={\n        payload: `Warning! Temperature is ${temp}C. Exceeds the limit by ${diff.toFixed(2)}C `\n    }\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 260,
+        "wires": [
+            [
+                "30fe7716374b8dcd",
+                "eda6f91961bde6f6"
+            ]
+        ]
+    },
+    {
+        "id": "eda6f91961bde6f6",
+        "type": "debug",
+        "z": "34709373db2a18d7",
+        "name": "debug 10",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "3df50b314ed990e7",
+        "type": "function",
+        "z": "34709373db2a18d7",
+        "name": "function 22",
+        "func": "let readings = global.get(\"weather\");\nlet limit_hum = flow.get(\"warning_hum\")\n\nlet hum = readings.humidity;\nlet diff = hum - limit_hum;\n\nif (hum >= limit_hum){\n    msg ={\n        payload: `Warning! Humidity is ${hum}%. Exceeds the limit by ${diff.toFixed(2)}% `\n    }\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 320,
+        "wires": [
+            [
+                "28bc713ae50a69bf"
+            ]
+        ]
+    },
+    {
+        "id": "a2c0c0b7f64ece6f",
+        "type": "function",
+        "z": "34709373db2a18d7",
+        "name": "function 23",
+        "func": "let readings = global.get(\"weather\");\nlet limit_pres = flow.get(\"warning_pres\")\n\nlet pres = readings.pressure;\nlet pres_atm = pres / 1013.25;\nlet diff = pres_atm - limit_pres;\n\nif (pres_atm >= limit_pres){\n    msg ={\n        payload: `Warning! Pressure is ${pres_atm.toFixed(2)}atm. Exceeds the limit by ${diff.toFixed(2)}atm `\n    }\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 400,
+        "wires": [
+            [
+                "c14f3289f36ccd23"
+            ]
+        ]
+    },
+    {
+        "id": "05a748ae04ca7efa",
+        "type": "function",
+        "z": "34709373db2a18d7",
+        "name": "function 24",
+        "func": "let readings = global.get(\"weather\");\nlet limit_wind = flow.get(\"warning_wind\")\n\nlet wind = readings.windspeed;\nlet diff = wind - limit_wind;\n\nif (wind >= limit_wind){\n    msg ={\n        payload: `Warning! Wind speed is ${wind}m/s. Exceeds the limit by ${diff.toFixed(2)}m/s `\n    }\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 460,
+        "wires": [
+            [
+                "01980d937a705ffc"
+            ]
+        ]
+    },
+    {
+        "id": "28bc713ae50a69bf",
+        "type": "ui_toast",
+        "z": "34709373db2a18d7",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "WARNING",
+        "name": "",
+        "x": 970,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c14f3289f36ccd23",
+        "type": "ui_toast",
+        "z": "34709373db2a18d7",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "WARNING",
+        "name": "",
+        "x": 970,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "01980d937a705ffc",
+        "type": "ui_toast",
+        "z": "34709373db2a18d7",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "WARNING",
+        "name": "",
+        "x": 970,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    }
+]
